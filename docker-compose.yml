@@ -1,0 +1,6 @@
+services:
+  image-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python main.py
